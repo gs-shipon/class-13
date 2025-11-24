@@ -1,0 +1,260 @@
+/* ALL COMMON CSS START  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* ALL COMMON CSS END */
+/* HEADR PART START */
+.nav-link {
+    color: #dddddd;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+
+.navbar {
+  
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: #dddddd;
+}
+
+.menuIcon a {
+    color: #dddddd;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    margin: 0px 10px;
+}
+
+/* HEADR PART END */
+/* BANNER PART START */
+#bannerPart{
+    padding-top: 340PX;
+    padding-bottom: 100PX;
+    background: url(../images/banner\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* BANNER PART END */
+/* BANNER PART START */
+.bannerText h3{
+    color: #dddddd;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    
+
+}
+.bannerText h1{
+    color: #dddddd;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    line-height: 89px;
+    padding: 30px 0;
+    position: relative;
+}
+.bannerText h1::after{
+position: absolute;
+height: 4px;
+width: 90px;
+background: #ffffff;
+right: 21px;
+bottom: 48px;
+content: "";
+}
+.bannerText p{
+    color: #dddddd;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    line-height: 24px;
+    padding-bottom: 45px;
+    /* padding-right: 109px; */
+}
+.bannerText a{
+padding: 13px 15px;
+background: #ffffff;
+color: #121212;
+font-weight: 400;
+font-family: "Oswald", sans-serif;
+font-size: 16px;
+margin-bottom: 320px;
+}
+.socipopular a{
+    color:  #d9d9d9;
+    font-size: 35px;
+
+}
+/* BANNER PART END */
+/* about PART START */
+#aboutPart{
+    background: #121212;
+    padding-top: 35px;
+    padding-bottom: 80px;
+}
+.aboutHeading h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    line-height: 56px;
+    padding-right: 110px;
+    position: relative;
+
+}
+.aboutHeading h3::after{
+position: absolute;
+height: 4px;
+width: 120px;
+background: #FF4655;
+right: 421px;
+bottom: 10px;
+content: "";
+}
+.aboutCard{
+    margin-top: 60px;
+}
+
+.aboutPoint{
+    margin-top: 170px;
+    padding-left: 20px;
+}
+.aboutPoint h3{
+    font-size: 27px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 40px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.aboutPoint h5{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 22px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.aboutPoint p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 27px;
+    font-family: "Oswald", sans-serif;
+    
+}
+.aboutPoint a{
+padding: 13px 15px;
+background: #212121;
+color: #ffffff;
+font-weight: 400;
+font-family: "Oswald", sans-serif;
+font-size: 16px;
+margin-top:  30px;  
+}
+.counterItem{
+    background: #212121;
+    padding: 25px 83px;
+    text-align: center;
+    color: #ffffff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 50px;
+}
+.counterItem h3{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    font-family: "Oswald", sans-serif;
+}
+.counterItem h6{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Oswald", sans-serif;
+}
+.counterItem h3 i{
+    font-size: 12px;
+}
+/* about PART END */
+/* popular PART START */
+
+/* popular PART END */
+/* BANNER PART START */
+#popularpart{
+    padding-top: 115px;
+    padding-bottom: 90px;
+    background: #191919;
+}
+.popularPoint{
+ /* margin-top: 130px; */
+ 
+}
+.popularPoint h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #ffffff;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-bottom: 80px;
+   padding-left: 127px; 
+    justify-content:end;
+    position: relative;
+}
+.popularPoint h3::after {
+    position: absolute;
+    height: 3px;
+    width: 105px;
+    background: #FF4655;
+    right: 260px;
+    bottom: 90px;
+    content: "";
+}
+
+
+/* BANNER PART END */
+/* BANNER PART START */
+
+/* BANNER PART END */
+/* BANNER PART START */
+
+/* BANNER PART END */
+/* BANNER PART START */
+
+/* BANNER PART END */
